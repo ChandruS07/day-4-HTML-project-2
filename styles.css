@@ -1,0 +1,100 @@
+#face{
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    margin: 100px auto;
+    border-radius: 100px 100px 0px 0px;
+    background-color: #f2d693;
+}
+#eye-container{
+    position: absolute;
+    /*border:1px solid black;*/
+    width: 110px;
+    height: 20px;
+    top: 60px;
+    left: 19px;
+}
+#left-eye, #right-eye{
+    position: absolute;
+    height:5px ;
+    width: 30px;
+    background-color: red;
+    border: 7px solid white;
+    left: 5px;
+}
+#right-eye{
+    left: 60px;
+    transition: transform 1.5s ease-in-out;
+}
+#left-eye{
+    transition: transform 1.5s ease-in-out;
+}
+#right-eye:hover{
+    transform: scale(0);
+}
+#left-eye:hover{
+    transform: scale(0);
+}
+#body{
+    border: 2px solid black;
+    height: 200px;
+    width: 150px;
+    position: relative;
+    margin: 100px auto;
+    top: 65px;
+    right: 2px;
+    border-radius: 0px 0px 50px 50px;
+    background-color: #84b45e;
+}
+#left-hand, #right-hand{
+    position: absolute;
+    height:140px ;
+    width: 40px;
+    background-color: #43d1bf;
+    border-radius: 20px 20px 20px 20px;
+    position: relative;
+    margin: 100px auto;
+    border: 2px solid black;
+}
+#right-hand{
+    left: 105px;
+    transition: transform 1.5s ease-in-out;
+    bottom: 340px;
+}
+#left-hand{
+    transition: transform 1.5s ease-in-out;
+    right: 105px;
+    bottom: 100px;
+}
+#right-hand:hover{
+    transform: rotate(180deg);
+}
+#left-hand:hover{
+    transform: rotate(180deg);
+}
+#left-leg, #right-leg{
+    position: absolute;
+    height:140px ;
+    width: 40px;
+    background-color: black;
+    border-radius:20px 20px 20px 20px ;
+    position: relative;
+    margin: 100px auto; 
+}
+#right-leg{
+    left: 38px;
+    transition: transform 1.5s ease-in-out;
+    bottom: 700px;
+}
+#left-leg{
+    transition: transform 1.5s ease-in-out;
+    bottom: 460px;
+    right: 40px;
+}
+#right-leg:hover{
+    transform: rotate(180deg);
+}
+#left-leg:hover{
+    transform: rotate(180deg);
+}
